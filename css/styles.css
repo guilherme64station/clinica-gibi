@@ -1,0 +1,310 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Estilos do cabeçalho */
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: green;
+    color: #fff;
+    padding: 15px 50px;
+ }
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos do banner */
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.banner-text {
+    flex: 1;
+}
+
+.banner img {
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+/* Seção de introdução */
+main .intro {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+main .intro img {
+    width: 30%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+main .intro .text h2 {
+    color: #000;
+}
+
+main .intro .text p {
+    font-size: 1.1em;
+}
+
+/* Seção de especialidades */
+#especialidades {
+    padding: 20px;
+}
+
+#especialidades h2 {
+    text-align: center;
+}
+
+#especialidades ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#especialidades ul li {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos da galeria */
+#galeria {
+    padding: 20px;
+}
+
+#galeria h2 {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 70px;
+
+}
+.formulario {
+    margin-right: 20px;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 250px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.botao-enviar {
+    width: 100px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.botao-enviar:hover {
+    background-color: darkgreen;
+}
+img {
+    max-width: 300px;
+    height: auto;
+    margin-left: 100px;
+}
+
+/* css da calculadora */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+   
+} 
+
+/* Cabeçalho */
+h1 {
+    color: #333;
+}
+
+/* Parágrafo de boas-vindas */
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Estilo único para a seção calculadora de IMC */
+#imc-calculator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Título da calculadora de IMC */
+#imc-calculator h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Inputs de peso e altura */
+#imc-calculator input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botão de calcular */
+#imc-calculator button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Botão ao passar o mouse */
+#imc-calculator button:hover {
+    background-color: #218838;
+}
+
+/* Resultado do IMC */
+
+#imcResult {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.imc-abaixo{
+    color: #000;
+}
+.imc-normal {
+    color: green;
+}
+.imc-sobrepeso {
+    color: orange;
+}
+.imc-obesidade{
+    color: red;
+}
+
+
+/* Estilo do rodapé */
+#contato {
+    background-color: #333;
+    color: white;
+    padding: 7px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-col {
+    flex-basis: 30%;
+    margin: 10px 0;
+}
+
+.footer-col h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #f4f4f4;
+}
+
+.footer-col p, .footer-col a {
+    color: #ddd;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-col a {
+    text-decoration: none;
+}
+
+.footer-col a:hover {
+    color: #ccc;
+}
+
+/* Estilo dos ícones */
+.footer-col i {
+    margin-trim: 5px;
+    font-size: 20px;
+}
+
+/* Ícones de redes sociais */
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    color: #e4405f;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-col {
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
+  
+  
